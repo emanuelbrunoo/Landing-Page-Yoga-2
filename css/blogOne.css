@@ -1,0 +1,126 @@
+:root {
+    --color-blog-box: #fff;
+    --color-text-dark: #484f5b;
+    --color-buttom: #e6c8c3;
+    --color-bg-gray: rgb(247, 247, 247);
+    --color-bg: #e5ccc6;
+    --color-bg-form: #efefef;
+    --color-border-form: #b0b0b0;
+    --color-footer: #484f5b;
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BANNER DE FUNDO O BANNER */
+
+
+.img-blog {
+    max-width: 1920px;
+    height: 394px;
+    background-image: url(../img/Banner\ Blog.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ESSA MARGIN É PARA SUBIR OS POST */ 
+
+.margin-blog {
+    margin-top: -100px;
+    margin-bottom: 100px;
+    z-index: 1;
+}
+
+
+.d-grid-blog-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 25px;  
+    
+}
+
+/* CONFIGURAÇÕES DE SOMBRAS IMAGENS E E ( LI ) H2 */ 
+
+.box-blog {
+    background-color: var(--color-blog-box);
+    -webkit-box-shadow: 6px 6px 14px -4px rgba(0,0,0,0.51); 
+    box-shadow: 6px 6px 14px -4px rgba(0,0,0,0.51);
+    border-radius: 15px;
+    
+}
+
+.box-blog img {
+    max-width: 100%;
+}
+
+.box-blog h2 {
+    background-color: var(--color-text-dark);
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.box-blog a {
+    color: var(--color-text-dark);    
+}
+
+
+/* CONFIGURAÇÕES DE SOMBRAS IMAGENS E E ( LI ) H2 */ 
+
+/* Alinhamento dentro da caixa do post */
+
+
+.padding-blog {
+    padding: 55px 40px;
+}
+
+/* Alinhamento dentro da caixa do post */
+
+.config-text-blog h1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+.d-flex-box {
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+.d-flex-box img {
+    height: 100px;
+    width: 100px;
+    margin-right: 15px;
+}
+
+.d-flex-box h6 {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+
+
+@media(max-width: 780px) {
+    .d-grid-blog-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 25px; 
+        padding: 0 12px;  
+        
+    }
+    .config-text h1, p {
+       text-align: start!important;
+    }
+    .padding-blog {
+        padding: 45px 40px;
+    }
+
+    
+
+}

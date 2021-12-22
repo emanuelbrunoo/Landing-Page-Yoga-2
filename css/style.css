@@ -1,0 +1,502 @@
+:root {
+    --white-bg: rgb(255, 64, 64);
+    --color-text-dark: #484f5b;
+    --color-buttom: #e6c8c3;
+    --color-bg-gray: rgb(247, 247, 247);
+    --color-bg: #e5ccc6;
+    --color-bg-form: #efefef;
+    --color-border-form: #b0b0b0;
+    --color-footer: #484f5b;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {    
+    list-style: none;
+}
+
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+
+/* MENU A BAIXO */ 
+
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.d-flex ul {
+    display: flex;
+}
+.d-flex li {
+    margin-left: 15px;
+}
+
+.d-flex a {
+    color: var(--color-text-dark);
+    cursor: pointer;
+}
+
+.d-flex img {
+    width: 60px;
+    height: 60px;
+}
+
+
+/* MENU A CIMA */
+
+.white-bg {
+    background-color: var(--white-bg);
+}
+
+.alt-menu {
+    height: 80px;
+}
+
+/* SECTION 1 A BAIXO  */ 
+
+
+.bg-img-one {
+    background-image: url(../img/Bg-Mulher.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.alt-banners {
+    height: 777px;
+}
+
+.d-grid-banners {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.d-grid-banners img {
+    width: 450px;
+    height: 468px;
+}
+
+.alinhamento {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.config-text h1 {
+    font-size: 70px;
+    
+}
+
+.config-text p {
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* SECTION 1 A CIMA */ 
+
+
+/* SECTION 2 A BAIXO */ 
+
+.bg-img-two {
+    background-image: url(../img/PaginaYoga.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* SECTION 2 A CIMA */ 
+
+/* BTNs A BAIXO */ 
+
+
+/* BTNs A BAIXO */ 
+
+
+.btn {
+    font-size: 15px;
+    padding: 10px 35px;
+    color: var(--color-text-dark);
+    border: none;
+}
+
+.btn-rosa {
+    background-color: var(--color-buttom);
+}
+
+/* BTNs A CIMA */ 
+
+
+/* SECTION 3 ICONS A BAIXO */
+
+
+.color-bg-gray-icons {
+    background-color: var(--color-bg-gray);
+}
+
+.alt-icons {
+    height: 482px;    
+}
+
+
+.d-grid-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.d-grid-icons img {
+    height: 200px;
+    width: 200px;
+}
+
+
+/* SECTION 3 ICONS A CIMA */
+
+
+/* A BAIXO 4 SECTION */ 
+
+
+.d-flex-img {
+    display: flex;
+    justify-content: end;
+}
+
+
+/* A BAIXO 4 SECTION */ 
+
+
+/* A BAIXO 5 SECTION */
+
+.bg-img-three {
+    background-image: url(../img/Banner\ Mulher\ Yoga\ Tapete.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.d-grid-banners-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    
+    
+}
+
+.d-grid-banners-two img {
+    
+    width: 500px;
+    height: 350px;
+}
+
+/* A BAIXO 5 SECTION A CIMA */
+
+
+
+
+/* SECTION 5 CARD */
+
+.d-grid-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.largura-cards {
+    width: 350px;
+    height: 510px;
+    background-color: #fff; 
+    box-shadow: 7px 6px 23px -5px rgba(105,105,105,0.57);
+    -webkit-box-shadow: 7px 6px 23px -5px rgba(105,105,105,0.57);
+    -moz-box-shadow: 7px 6px 23px -5px rgba(105,105,105,0.57);
+
+    
+}
+
+.alt-banners-cards {
+    height: 777px;
+}
+
+.largura-cards img {
+    width: 350px;    
+}
+
+
+
+.config-text-cards h3 {
+    text-align: center;    
+    padding-top: 16px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.config-text-cards p {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 17px;
+}
+
+
+
+/* SECTION 5 CARD A CIMA */
+
+
+/* SECTION 7 VIDEO A BAIXO */ 
+
+.bg-color-one {
+    background-color: var(--color-bg);
+}
+
+
+
+.icones-redes-social ul {
+    display: flex;
+    
+}
+
+
+.icones-redes-social img {
+    height: 38px;
+    width: 38px;
+}
+
+
+/* SECTION 7 VIDEO A CIMA */ 
+
+
+/* SECTION FORMS A BAIXO */
+
+.d-flex-forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex-forms form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.d-flex-forms input {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: var(--color-bg-form);
+    border: 1px solid var(--color-border-form);
+    color: var(--color-text-dark);
+
+}
+
+.d-flex-forms h3 {
+    font-size: 55px;
+}
+
+.d-flex-forms p {
+    font-size: 27px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 55px;
+}
+
+/* SECTION FORMS A CIMA */ 
+
+
+/* FOOTER */ 
+
+.footer-color {
+    background-color: var(--color-footer);
+}
+
+.alt-footer {
+    height: 330px;
+}
+
+.d-grid-footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    color: #fff;
+    align-items: center;
+    line-height: 40px;
+    
+}
+
+.d-grid-footer a {
+    color: #fff;
+}
+
+.d-flex-footer-icones ul {
+    display: flex;
+}
+
+.d-grid-footer a:hover {
+    color: var(--color-bg);    
+}
+
+.d-flex-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+
+}
+
+
+
+/* FOOTER */ 
+
+
+
+
+
+@media( max-width:780px){
+    .d-grid-banners {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        margin-top: 35px;
+        margin-bottom: 25px;
+        
+        
+    }
+    .alt-banners {
+        height: 100vh;
+        width: 99%;
+    }
+    .config-text h1, p {
+        text-align: center;        
+    }
+    .config-text h1 {
+        font-size: 47px;
+        
+    }
+    .config-text p {
+        font-size: 20px;
+        
+    }
+    .btn {
+        font-size: 16px;
+        padding: 16px 65px;
+        
+    }
+    .config-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     } 
+
+     .d-grid-icons {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        
+    }
+    .alt-icons {
+        height: 100vh;
+    }
+    .d-grid-banners-two {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .d-grid-banners-two img {
+        height: 100%;
+        width: 100%;
+    }
+    .d-grid-card {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .d-flex-cards {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        
+    }
+
+    .config-text-cards h3 {
+       text-align: center;
+    }
+    
+    .config-text-cards p {
+        padding-left: 15px;
+        padding-bottom: 20px;
+    }
+    
+    .config-text-cards button {
+        display: none;
+    }
+
+    .d-grid-banners iframe {
+        width: 450px;
+    }
+
+    .alt-banners-cards {
+        height: auto;
+        width: 99%;
+    } 
+    
+    .d-grid-footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);              
+        
+    }
+    
+    .alt-footer {
+        height: auto;
+    }
+
+    .d-flex-footer-icones {
+        display: flex;
+        flex-direction: column;       
+        align-items: center;
+        
+    }
+
+    .d-flex-footer {
+        display: flex;
+        flex-direction: column;       
+        align-items: center;
+        text-align: center;
+    }
+        
+    
+    
+}
+
+
+
+
+
+
